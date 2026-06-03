@@ -230,7 +230,13 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 700; line-he
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: var(--gradient-hero);
+  background:
+linear-gradient(rgba(42,26,5,0.75), rgba(42,26,5,0.75)),
+url('images/hero-bg.jpg');
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
   overflow: hidden;
 }
 #heroCanvas {
