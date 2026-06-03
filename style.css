@@ -690,42 +690,36 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 700; line-he
 }
 /* SVG-based gallery images using CSS gradients and patterns */
 .gi-1 {
-  background:
-    linear-gradient(135deg, rgba(92,61,30,0.7), rgba(201,168,76,0.5)),
-    repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(201,168,76,0.4) 20px, rgba(201,168,76,0.4) 21px),
-    repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(201,168,76,0.4) 20px, rgba(201,168,76,0.4) 21px),
-    linear-gradient(160deg, #2A1A05, #5C3D1E);
-  background-color: #3D2B10;
+    background-image: url('images/grill1.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
 .gi-2 {
-  background:
-    linear-gradient(135deg, rgba(26,80,120,0.6), rgba(201,168,76,0.3)),
-    repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255,255,255,0.1) 15px, rgba(255,255,255,0.1) 16px),
-    linear-gradient(160deg, #1A3050, #2A5078);
-  background-color: #1A3050;
+    background-image: url('images/grill2.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
 .gi-3 {
-  background:
-    linear-gradient(135deg, rgba(201,168,76,0.6), rgba(92,61,30,0.7)),
-    repeating-linear-gradient(0deg, transparent, transparent 25px, rgba(255,255,255,0.15) 25px, rgba(255,255,255,0.15) 26px),
-    linear-gradient(160deg, #8B6340, #C9A84C);
-  background-color: #8B6340;
+    background-image: url('images/grill3.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
 .gi-4 {
-  background:
-    linear-gradient(135deg, rgba(30,80,30,0.5), rgba(201,168,76,0.4)),
-    repeating-linear-gradient(90deg, transparent, transparent 18px, rgba(255,255,255,0.1) 18px, rgba(255,255,255,0.1) 19px),
-    linear-gradient(160deg, #1E4020, #2A6030);
-  background-color: #1E4020;
+    background-image: url('images/grill4.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
 .gi-5 {
-  background:
-    linear-gradient(135deg, rgba(92,61,30,0.5), rgba(201,168,76,0.6)),
-    repeating-linear-gradient(0deg, transparent, transparent 16px, rgba(201,168,76,0.3) 16px, rgba(201,168,76,0.3) 17px),
-    repeating-linear-gradient(90deg, transparent, transparent 16px, rgba(201,168,76,0.3) 16px, rgba(201,168,76,0.3) 17px),
-    linear-gradient(160deg, #4A3020, #6B4828);
-  background-color: #4A3020;
+    background-image: url('images/grill5.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
+.
 .gallery-item:hover .gallery-img { transform: scale(1.08); }
 .gallery-overlay {
   position: absolute;
